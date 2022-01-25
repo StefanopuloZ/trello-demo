@@ -8,6 +8,7 @@ const StyledDraggable = styled.div`
 
 // update 2
 // update 3
+// update 3
 
 function DraggableItem({id, children, status}) {
     const {attributes, listeners, setNodeRef, isDragging} = useDraggable({
