@@ -6,6 +6,8 @@ const StyledDraggable = styled.div`
     opacity: ${ifProp("isDragging", "0.5", "1")};
 `;
 
+// update 2
+
 function DraggableItem({id, children, status}) {
     const {attributes, listeners, setNodeRef, isDragging} = useDraggable({
         id,
